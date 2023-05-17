@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Super Fit - Fitness Plan</title>
+<style>
+body {
+background-color: black;
+color: white;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+.container {
+width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+.header {
+text-align: center;
+margin-bottom: 50px;
+}
+.header img {
+max-width: 100%;
+height: auto;
+}
+.menu {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 30px;
+text-align: center;
+}
+.menu input[type="submit"] {
+padding: 10px 20px;
+border-radius: 5px;
+border: none;
+background-color: #ffcc00;
+color: black;
+font-size: 16px;
+cursor: pointer;
+text-align: center;
+}
+.content {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 50px;
+}
+.content img {
+max-width: 100%;
+height: auto;
+margin-bottom: 20px;
+}
+.content p {
+flex-basis: 45%;
+margin: 0;
+line-height: 1.5;
+}
+.contact-form {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 50px;
+}
+.contact-form label {
+flex-basis: 45%;
+margin-bottom: 10px;
+font-size: 16px;
+}
+.contact-form input[type="text"], .contact-form input[type="email"] {
+flex-basis: 45%;
+padding: 10px;
+border-radius: 5px;
+border: none;
+background-color: white;
+color: black;
+font-size: 16px;
+}
+.contact-form input[type="submit"] {
+flex-basis: 100%;
+padding: 10px 20px;
+border-radius: 5px;
+border: none;
+background-color: #ffcc00;
+color: black;
+font-size: 16px;
+cursor: pointer;
+}
+.footer {
+text-align: center;
+padding: 20px;
+background-color: #ffcc00;
+color: black;
+font-size: 14px;
+}
+.my-image {
+width: 400px;
+height: 300px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<img src="PureImages/PureLogo.png" alt="Super Fit logo">
+<h1>Unleash Your Pure Physique: Where Strength Meets Elegance!</h1>
+<p>Our mission is to help you achieve your fitness goals and live a healthier life. Our fitness plan is designed to be simple, effective, and sustainable. Join us today and start your journey to a better you!</p>
+</div>
+<div class="menu">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+</div>
+<div class="content">
+<img src="PureImages/jon.png" alt="Fitness plan image" class="my-image">
+<p>Our fitness plan includes personalized workout routines, nutrition guidance, and support from our team of certified trainers. Whether you're a beginner or an experienced athlete, our plan can help you reach your fitness goals.</p>
+</div>
+<div class="contact-form">
+<form action="mailto:bradstephen15@hotmail.com" method="post" enctype="text/plain">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<input type="submit" value="Submit">
+</form>
+</div>
+<div class="footer">
+<p>&copy; 2023 PurePhysique Fitness Plan. All rights reserved.</p>
+</div>
+</div>
+</body>
+</html>
